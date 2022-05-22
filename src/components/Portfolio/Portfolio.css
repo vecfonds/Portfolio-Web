@@ -45,14 +45,10 @@
 
 @media screen and (max-width: 480px) {
   .portfolio span:nth-of-type(1) {
-    color: var(--black);
     font-size: 1.5rem;
-    font-weight: bold;
   }
 
   .portfolio span:nth-of-type(2) {
-    color: var(--orange);
     font-size: 2rem;
-    font-weight: bold;
   }
 }
