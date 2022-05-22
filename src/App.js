@@ -8,6 +8,8 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+
 
 function App() {
   const theme = useContext(themeContext);
@@ -19,6 +21,7 @@ function App() {
       color: darkMode ? "white" : "",
     }}
     >
+      <ScrollToTop />
       <Navbar/>
       <Intro/>
       <Services/>
