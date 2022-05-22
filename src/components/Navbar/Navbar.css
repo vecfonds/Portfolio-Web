@@ -58,5 +58,9 @@
     .n-right{
         justify-content: end;
     }
+
+    .n-left{
+        gap: 1rem;
+    }
   }
   
