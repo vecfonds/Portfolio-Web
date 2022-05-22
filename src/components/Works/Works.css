@@ -1,0 +1,43 @@
+.works {
+    padding: 0 3rem;
+    display: flex;
+    height: 70vh;
+    padding-top: 7rem;
+}
+
+.w-right {
+    position: relative;
+}
+
+.w-mainCircle {
+    position: absolute;
+}
+
+.w-mainCircle img {
+    transform: scale(0.4);
+}
+
+
+@media screen and (max-width: 480px) {
+    .works {
+        flex-direction: column;
+        height: 40rem;
+        padding: 0;
+    }
+
+    .w-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: scale(0.8);
+    }
+
+    .w-mainCircle img {
+        margin-top: -10rem;
+    }
+
+    .w-mainCircle {
+        position: static;
+    }
+
+}

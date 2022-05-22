@@ -17,8 +17,8 @@
 }
 
 .n-right{
-    display: flex;
     flex:1;
+    display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 400;
@@ -31,9 +31,10 @@
 
 .n-list > ul{
     display: flex;
+    justify-content: center;
     gap: 2rem;
-    margin-right: 4rem;
     list-style-type: none;
+    cursor: pointer;
 }
 
 .n-list > ul > li{
@@ -48,3 +49,14 @@
 .n-button{
     flex: 2;
 }
+
+@media screen and (max-width: 480px){
+    .n-list{
+      display: none;
+    }
+
+    .n-right{
+        justify-content: end;
+    }
+  }
+  

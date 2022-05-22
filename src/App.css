@@ -37,5 +37,23 @@
   color: var(--orange);
   border: 1px solid var(--orange);
 }
+
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  z-index: -1;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
+}
   
+
+@media screen and (max-width: 480px){
+  .App{
+    padding: 0.5rem 1rem;
+  }
+}
 
