@@ -40,6 +40,11 @@
         position: static;
     }
 
+    .works span:nth-of-type(1),
+    .works span:nth-of-type(2){
+        font-size: 2rem;
+
+    }
 }
 
 
