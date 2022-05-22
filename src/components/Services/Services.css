@@ -59,7 +59,7 @@
       margin-top: 0;
       flex-direction: column;
       gap: 5rem;
-      height: 70rem;
+      height: 80rem;
       padding: 0;
     }
   
@@ -71,6 +71,10 @@
     }
     .cards > * {
       position: static;
+    }
+    
+    .s-button{
+        width: 10rem;
     }
   }
 

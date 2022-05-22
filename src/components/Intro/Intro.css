@@ -101,4 +101,8 @@
         top: -7rem !important;
         ;
     }
+
+    .i-button{
+        width: 8rem;
+    }
 }
